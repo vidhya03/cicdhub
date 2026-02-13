@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "cicdhub",
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "react",
+    "clientTestFrameworks": [],
+    "clientTheme": "none",
+    "creationTimestamp": 1770954433247,
+    "databaseType": "no",
+    "devDatabaseType": null,
+    "enableHibernateCache": null,
+    "enableTranslation": true,
+    "entities": [],
+    "feignClient": null,
+    "jhipsterVersion": "8.11.0",
+    "jwtSecretKey": "Y2VkODcxMjY2NmUzMmI4MmFjOGIxNDEwOGIwNzI4MjJlMmQ5NzBlOGYwMTRlMjE5MTdhNjdhOGIxYjc3NGFlMTFjMDNhNDE5ZTA5ZWJkZjdmMjYxNDZkMTgzZWY5YjFjNjg1YzIxMzBmMzg2YzE5NWY4ZDhkNDU1NTNkNzQ1YjQ=",
+    "languages": ["en", "ta"],
+    "microfrontend": null,
+    "microfrontends": [],
+    "nativeLanguage": "en",
+    "packageName": "com.dev2ops.cicdhub",
+    "prodDatabaseType": null,
+    "reactive": false,
+    "serverPort": null,
+    "serviceDiscoveryType": null,
+    "syncUserWithIdp": null,
+    "testFrameworks": [],
+    "withAdminUi": true
+  }
+}
