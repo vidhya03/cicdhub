@@ -1,5 +1,8 @@
 name: Application CI
 on: [push, pull_request]
+permissions:
+  contents: read
+  packages: write
 jobs:
   pipeline:
     name: cicdhub pipeline
