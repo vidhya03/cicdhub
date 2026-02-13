@@ -58,4 +58,5 @@ jobs:
         run: |
           GIT_TAG=:${GITHUB_REF#refs/tags/}
           DOCKER_TAG=${GIT_TAG#:refs/heads/main}
-          ./mvnw -ntp jib:build -Djib.to.image=vidhya03/cicdhub-image${DOCKER_TAG} -Djib.to.auth.username="${{ secrets.DOCKER_USERNAME }}" -Djib.to.auth.password="${{ secrets.DOCKER_PASSWORD }}" -Pprod
+          # ./mvnw -ntp jib:build -Djib.to.image=vidhya03/cicdhub-image${DOCKER_TAG} -Djib.to.auth.username="${{ secrets.DOCKER_USERNAME }}" -Djib.to.auth.password="${{ secrets.DOCKER_PASSWORD }}" -Pprod
+          ./mvnw -ntp jib:build -Djib.to.image=ghcr.io/vidhya03/cicdhub${DOCKER_TAG} -Djib.to.auth.username="${{ github.actor }}" -Djib.to.auth.password="${{ secrets.GITHUB_TOKEN }}" -Pprod
