@@ -1,19 +1,23 @@
 {
   "home": {
-    "title": "Welcome, Java Hipster!",
-    "subtitle": "This is your homepage",
+    "title": "Welcome to CICDHub! 🚀",
+    "subtitle": "Thanks for joining our DevOps Community Meetup - Feb 14, 2026",
     "logged": {
       "message": "You are logged in as user \"{{username}}\"."
     },
-    "question": "If you have any question on JHipster:",
+    "question": "Thank you for attending today's demo! Let's stay connected:",
     "link": {
-      "homepage": "JHipster homepage",
-      "stackoverflow": "JHipster on Stack Overflow",
-      "bugtracker": "JHipster bug tracker",
-      "chat": "JHipster public chat room",
-      "follow": "follow @jhipster on Twitter"
+      "homepage": "View Meetup Details",
+      "stackoverflow": "Star us on GitHub",
+      "bugtracker": "Connect with Vidhyadharan on LinkedIn",
+      "chat": "Connect with Aravindhan on LinkedIn",
+      "follow": "Join Our DevOps Community"
     },
-    "like": "If you like JHipster, don't forget to give us a star on",
+    "qr": {
+      "title": "Connect with Our Presenters",
+      "message": "Scan the QR codes to connect on LinkedIn"
+    },
+    "like": "If you enjoyed this demo, let's connect and continue learning together on",
     "github": "GitHub"
   }
 }

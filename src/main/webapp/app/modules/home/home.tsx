@@ -34,53 +34,75 @@ export const Home = () => {
           <div>
             <Alert color="warning">
               <Translate contentKey="global.messages.info.authenticated.prefix">If you want to </Translate>
-
               <Link to="/login" className="alert-link">
                 <Translate contentKey="global.messages.info.authenticated.link"> sign in</Translate>
               </Link>
-              <Translate contentKey="global.messages.info.authenticated.suffix">
-                , you can try the default accounts:
-                <br />- Administrator (login=&quot;admin&quot; and password=&quot;admin&quot;)
-                <br />- User (login=&quot;user&quot; and password=&quot;user&quot;).
-              </Translate>
+              <Translate contentKey="global.messages.info.authenticated.suffix" />
             </Alert>
           </div>
         )}
         <p>
-          <Translate contentKey="home.question">If you have any question on JHipster:</Translate>
+          <Translate contentKey="home.question" />
         </p>
 
         <ul>
           <li>
-            <a href="https://www.jhipster.tech/" target="_blank" rel="noopener noreferrer">
-              <Translate contentKey="home.link.homepage">JHipster homepage</Translate>
+            <a href="https://luma.com/user/usr-QCz6Qs4weRb1bIc" target="_blank" rel="noopener noreferrer">
+              <Translate contentKey="home.link.homepage">View Meetup Details</Translate>
             </a>
           </li>
           <li>
-            <a href="https://stackoverflow.com/tags/jhipster/info" target="_blank" rel="noopener noreferrer">
-              <Translate contentKey="home.link.stackoverflow">JHipster on Stack Overflow</Translate>
+            <a href="https://github.com/vidhya03/cicdhub" target="_blank" rel="noopener noreferrer">
+              <Translate contentKey="home.link.stackoverflow">Star us on GitHub</Translate>
             </a>
           </li>
           <li>
-            <a href="https://github.com/jhipster/generator-jhipster/issues?state=open" target="_blank" rel="noopener noreferrer">
-              <Translate contentKey="home.link.bugtracker">JHipster bug tracker</Translate>
+            <a href="https://www.linkedin.com/in/vidhyadharan/" target="_blank" rel="noopener noreferrer">
+              <Translate contentKey="home.link.bugtracker">Connect with Vidhyadharan on LinkedIn</Translate>
             </a>
           </li>
           <li>
-            <a href="https://gitter.im/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">
-              <Translate contentKey="home.link.chat">JHipster public chat room</Translate>
+            <a href="https://www.linkedin.com/in/aravindhanannamalai/" target="_blank" rel="noopener noreferrer">
+              <Translate contentKey="home.link.chat">Connect with Aravindhan on LinkedIn</Translate>
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/jhipster" target="_blank" rel="noopener noreferrer">
-              <Translate contentKey="home.link.follow">follow @jhipster on Twitter</Translate>
+            <a href="https://luma.com/user/usr-QCz6Qs4weRb1bIc" target="_blank" rel="noopener noreferrer">
+              <Translate contentKey="home.link.follow">Join Our DevOps Community</Translate>
             </a>
           </li>
         </ul>
 
-        <p>
-          <Translate contentKey="home.like">If you like JHipster, do not forget to give us a star on</Translate>{' '}
-          <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">
+        <div style={{ marginTop: '2rem', padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px', textAlign: 'center' }}>
+          <h5>
+            <Translate contentKey="home.qr.title">Connect with Our Presenters</Translate>
+          </h5>
+          <p>
+            <Translate contentKey="home.qr.message">Scan the QR codes to connect on LinkedIn</Translate>
+          </p>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap', marginTop: '1rem' }}>
+            <div>
+              <p style={{ fontWeight: 'bold', marginBottom: '0.5rem' }}>Vidhyadharan</p>
+              <img
+                src="content/images/vidhya.png"
+                alt="Vidhyadharan LinkedIn QR Code"
+                style={{ maxWidth: '200px', border: '2px solid #0077b5', borderRadius: '8px' }}
+              />
+            </div>
+            <div>
+              <p style={{ fontWeight: 'bold', marginBottom: '0.5rem' }}>Aravindhan</p>
+              <img
+                src="content/images/aravind.png"
+                alt="Aravindhan LinkedIn QR Code"
+                style={{ maxWidth: '200px', border: '2px solid #0077b5', borderRadius: '8px' }}
+              />
+            </div>
+          </div>
+        </div>
+
+        <p style={{ marginTop: '2rem' }}>
+          <Translate contentKey="home.like" />{' '}
+          <a href="https://github.com/vidhya03/cicdhub" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
           !
@@ -91,3 +113,5 @@ export const Home = () => {
 };
 
 export default Home;
+
+// Made with Bob

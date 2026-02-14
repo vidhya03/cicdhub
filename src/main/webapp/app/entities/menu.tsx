@@ -1,7 +1,7 @@
 import React from 'react';
-import { Translate } from 'react-jhipster'; // eslint-disable-line
+import { Translate } from 'react-jhipster';
 
-import MenuItem from 'app/shared/layout/menus/menu-item'; // eslint-disable-line
+import MenuItem from 'app/shared/layout/menus/menu-item';
 
 const EntitiesMenu = () => {
   return (
